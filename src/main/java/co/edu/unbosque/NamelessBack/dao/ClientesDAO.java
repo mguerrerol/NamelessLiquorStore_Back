@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import co.edu.unbosque.NamelessBack.model.Clientes;
 
-public interface ClientesDAO extends JpaRepository<Clientes, Integer>{
+public interface ClientesDAO extends JpaRepository<Clientes, Long>{
 
 }
